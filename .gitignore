@@ -1,0 +1,12 @@
+# 编译产物
+build/
+*.exe
+*.o
+*.obj
+
+# VS Code
+.vscode/
+
+# 系统文件
+Thumbs.db
+.DS_Store
