@@ -1,7 +1,20 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
 
-int main() {
-    printf("Hello, World!\n");   // 英文你好世界
-    printf("你好，世界！\n");     // 中文你好世界
+void hello() 
+{
+    char *message = "Hello, World!";
+    printf("%s\n", message);
+}
+
+int main() 
+{
+    hello();
+
+    bool aa;
+
+    aa = true;
+
     return 0;
 }
